@@ -11,7 +11,7 @@ layers:
   - {t: I, h: SCROLL}
   - O
   - P
-  - A
+  - {t: A, h: LCTRL}
   - S
   - D
   - F
@@ -36,9 +36,9 @@ layers:
   - .
   - /
   - LCTRL
-  - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT_HENKAN', h: '6'}
+  - LEFT WIN
+  - {t: '&to_layer_0 INT_HENKAN', h: BLUETOOTH}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - BACKSPACE
@@ -50,23 +50,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F13
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - VOL DN
+  - MUTE
+  - VOL UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,10 +62,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - PG UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - {t: ▽, type: trans}
+  - PG DN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - F12
+  - {t: ▽, type: trans}
   NUM:
   - '-'
   - KP 7
@@ -117,7 +117,7 @@ layers:
   - KP 3
   - .
   - '='
-  - {t: ▽, type: trans}
+  - '`'
   - '['
   - ']'
   - '{'
@@ -264,7 +264,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '6':
+  BLUETOOTH:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

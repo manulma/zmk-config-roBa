@@ -4,6 +4,8 @@
 
 - ZMK docs: https://v0-3-branch.zmk.dev/docs/keymaps/behaviors
   - behavior や設定を調べる際はこの URL を参照する
+- roBa ビルドガイド: https://github.com/kumamuk-git/roBa/blob/main/doc/v3/buildguide_v3.md
+  - ハードウェアの仕様や組み立て手順を調べる際はこの URL を参照する
 
 ## Project Overview
 

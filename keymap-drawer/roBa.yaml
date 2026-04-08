@@ -55,7 +55,7 @@ layers:
   - VOL DN
   - VOL UP
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LWIN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

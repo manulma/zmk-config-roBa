@@ -8,8 +8,8 @@ layers:
   - T
   - Y
   - U
-  - I
-  - {t: O, h: SCROLL}
+  - {t: I, h: SCROLL}
+  - O
   - P
   - {t: A, h: LCTRL}
   - S
@@ -17,32 +17,32 @@ layers:
   - F
   - G
   - Sft+Gui+S
-  - '-'
+  - ;
   - H
   - J
   - K
   - L
-  - ENTER
+  - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
   - ':'
-  - ;
+  - /
   - N
   - M
   - ','
   - .
-  - BACKSPACE
+  - '='
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - {t: SPACE, h: BROWSE}
+  - {t: TAB, h: BROWSE}
   - {t: SPACE, h: SYMBOL}
   - {t: '&to_layer_0 INT_MUHENKAN', h: BLUETOOTH}
-  - TAB
-  - {t: BACKSPACE, h: FUNCTION}
+  - BACKSPACE
+  - {t: ENTER, h: FUNCTION}
   - DEL
   FUNCTION:
   - ESCAPE
@@ -184,7 +184,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,12 +219,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   BROWSE:
-  - Gui+TAB
+  - TAB
   - Ctl+Sft+TAB
   - '&msc SCRL_DOWN'
   - Ctl+TAB
-  - {t: ▽, type: trans}
+  - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

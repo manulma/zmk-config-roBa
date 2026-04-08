@@ -8,8 +8,8 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: SCROLL}
-  - O
+  - I
+  - {t: O, h: SCROLL}
   - P
   - {t: A, h: LCTRL}
   - S
@@ -184,8 +184,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

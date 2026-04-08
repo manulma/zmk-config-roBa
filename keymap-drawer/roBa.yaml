@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - DEL
+  - BACKSPACE
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -38,9 +38,9 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - {t: '&to_layer_0 INT_HENKAN', h: BROWSE}
+  - {t: '&to_layer_0 TAB', h: BROWSE}
   - {t: SPACE, h: SYMBOL}
-  - {t: '&to_layer_0 TAB', h: BLUETOOTH}
+  - {t: '&to_layer_0 INT_MUHENKAN', h: BLUETOOTH}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
@@ -309,10 +309,6 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [11, 12]
-  k: TAB
-- p: [12, 13]
-  k: Sft+TAB
 - p: [11, 10]
   k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]

@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - ENTER
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -38,11 +38,11 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - {t: GLOBE, h: BROWSE}
+  - {t: SPACE, h: BROWSE}
   - {t: SPACE, h: SYMBOL}
   - {t: '&to_layer_0 INT_MUHENKAN', h: BLUETOOTH}
   - TAB
-  - {t: ENTER, h: FUNCTION}
+  - {t: BACKSPACE, h: FUNCTION}
   - DEL
   FUNCTION:
   - ESCAPE
@@ -62,11 +62,11 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
   - PG UP
+  - BACKSPACE
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
-  - {t: ▽, type: trans}
+  - Gui+RIGHT ARROW
   - PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

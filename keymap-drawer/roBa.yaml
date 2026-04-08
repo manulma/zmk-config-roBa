@@ -55,28 +55,28 @@ layers:
   - VOL DN
   - VOL UP
   - {t: ▽, type: trans}
-  - HOME
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
+  - {t: ▽, type: trans}
+  - HOME
   - PG UP
   - BACKSPACE
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
-  - Gui+RIGHT ARROW
+  - END
   - PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,11 +221,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BROWSE:
-  - TAB
+  - ESC
   - Ctl+Sft+TAB
   - '&msc SCRL_DOWN'
   - Ctl+TAB
-  - LGUI
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

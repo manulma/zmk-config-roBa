@@ -90,8 +90,8 @@
         FUNCTION {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans      &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans      &trans            &kp LG(LEFT_ARROW)  &kp PG_UP      &kp BACKSPACE
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans      &kp DEL       &kp LG(RIGHT_ARROW)  &kp PG_DN      &trans
+&trans          &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans   &trans      &trans  &trans      &trans            &kp HOME            &kp PG_UP      &kp BACKSPACE
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans      &kp DEL       &kp END              &kp PG_DN      &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                              &trans
             >;
 
@@ -127,7 +127,7 @@
 
         BROWSE {
             bindings = <
-&kp TAB          &kp LC(LS(TAB))  &msc SCRL_DOWN  &kp LC(TAB)      &kp LGUI                    &trans  &trans  &trans  &trans  &trans
+&kp ESC          &kp LC(LS(TAB))  &msc SCRL_DOWN  &kp LC(TAB)      &trans                    &trans  &trans  &trans  &trans  &trans
 &kp LG(LBKT)     &msc SCRL_LEFT   &msc SCRL_UP    &msc SCRL_RIGHT  &kp LG(RBKT)  &trans      &trans  &kp LC(LEFT)  &kp LA(TAB)  &kp LC(RIGHT)  &trans  &trans
 &trans           &kp LG(LS(LEFT))  &trans          &kp LG(LS(RIGHT))  &trans      &trans      &trans  &kp LC(DOWN)  &trans  &trans  &trans  &trans
 &trans  &trans           &trans          &trans           &trans  &trans      &trans  &trans                          &trans

@@ -79,9 +79,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &kp I      &lt 4 O  &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp BACKSPACE
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt_to_layer_0 5 TAB         &lt 2 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt LCTRL A       &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 5 GLOBE         &lt 2 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp TAB        &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -89,7 +89,7 @@
 
         FUNCTION {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans      &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans      &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &trans
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT     &kp PG_UP
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans      &kp DEL       &trans      &kp PG_DN     &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                              &trans
@@ -110,7 +110,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &mkp MB1  &mkp MB3  &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
@@ -127,7 +127,7 @@
 
         BROWSE {
             bindings = <
-&trans           &kp LC(LS(TAB))  &msc SCRL_DOWN  &kp LC(TAB)      &trans                      &trans  &trans  &trans  &trans  &trans
+&kp LG(TAB)      &kp LC(LS(TAB))  &msc SCRL_DOWN  &kp LC(TAB)      &trans                      &trans  &trans  &trans  &trans  &trans
 &kp LG(LBKT)     &msc SCRL_LEFT   &msc SCRL_UP    &msc SCRL_RIGHT  &kp LG(RBKT)  &trans      &trans  &kp LC(LEFT)  &kp LA(TAB)  &kp LC(RIGHT)  &trans  &trans
 &trans           &kp LG(LS(LEFT))  &trans          &kp LG(LS(RIGHT))  &trans      &trans      &trans  &kp LC(DOWN)  &trans  &trans  &trans  &trans
 &trans  &trans           &trans          &trans           &trans  &trans      &trans  &trans                          &trans

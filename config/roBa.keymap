@@ -89,9 +89,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 4 I    &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt_to_layer_0 5 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt LCTRL A       &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp DEL
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp EQUAL
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt_to_layer_0 5 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 6 TAB      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -120,7 +120,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &mkp MB1  &mkp MB3  &mkp MB2
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;

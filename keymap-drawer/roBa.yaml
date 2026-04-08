@@ -223,7 +223,7 @@ layers:
   BROWSE:
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -233,7 +233,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+[
   - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
   - Gui+]
   - {t: ▽, type: trans}

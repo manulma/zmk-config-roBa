@@ -238,8 +238,8 @@ layers:
   - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+TAB
   - Ctl+LEFT
+  - Alt+TAB
   - Ctl+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

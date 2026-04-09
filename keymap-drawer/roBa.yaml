@@ -23,12 +23,12 @@ layers:
   - K
   - L
   - '-'
-  - {t: Z, h: LEFT SHIFT}
+  - LEFT SHIFT
+  - Z
   - X
   - C
   - V
   - B
-  - ':'
   - /
   - N
   - M
@@ -38,8 +38,8 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - {t: TAB, h: BROWSE}
   - {t: SPACE, h: SYMBOL}
+  - {t: TAB, h: BROWSE}
   - {t: '&to_layer_0 INT_MUHENKAN', h: BLUETOOTH}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
@@ -126,8 +126,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,8 +258,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

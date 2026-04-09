@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - ENTER
   - LEFT SHIFT
   - Z
   - X
@@ -42,7 +42,7 @@ layers:
   - {t: TAB, h: BROWSE}
   - {t: '&to_layer_0 INT_MUHENKAN', h: BLUETOOTH}
   - BACKSPACE
-  - {t: ENTER, h: FUNCTION}
+  - {t: SPACE, h: FUNCTION}
   - DEL
   FUNCTION:
   - ESCAPE
@@ -90,9 +90,9 @@ layers:
   - {t: ▽, type: trans}
   SYMBOL:
   - '`'
-  - KP 7
-  - KP 8
-  - KP 9
+  - '1'
+  - '2'
+  - '3'
   - +
   - ^
   - '&'
@@ -100,21 +100,21 @@ layers:
   - (
   - )
   - /
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - '*'
   - Ctl+Alt+KP 0
-  - _
+  - '-'
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - {t: KP 0, h: LEFT SHIFT}
-  - KP 1
-  - KP 2
-  - KP 3
+  - LEFT SHIFT
+  - '7'
+  - '8'
+  - '9'
   - .
   - '='
   - ''''
@@ -125,7 +125,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,10 +238,10 @@ layers:
   - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+LEFT
   - Alt+TAB
   - Ctl+RIGHT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Sft+LEFT
@@ -250,9 +250,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

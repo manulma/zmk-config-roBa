@@ -89,34 +89,34 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   SYMBOL:
-  - '`'
   - '1'
   - '2'
   - '3'
-  - +
-  - ^
-  - '&'
-  - '~'
-  - (
-  - )
-  - /
   - '4'
   - '5'
   - '6'
-  - '*'
-  - Ctl+Alt+KP 0
-  - '-'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - '!'
   - '@'
   - '#'
   - $
   - '%'
+  - Ctl+Alt+KP 0
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '|'
   - LEFT SHIFT
-  - '7'
-  - '8'
-  - '9'
-  - .
+  - '`'
+  - /
+  - '-'
   - '='
+  - +
   - ''''
   - '['
   - ']'
@@ -125,13 +125,13 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '-'
   - {t: ▽, type: trans}
-  - '|'
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

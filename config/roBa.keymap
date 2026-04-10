@@ -90,8 +90,8 @@
         FUNCTION {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans      &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &trans
-&kp TAB         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans   &trans      &trans  &trans      &trans            &kp HOME            &kp PG_UP      &kp BACKSPACE
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans      &kp DEL       &kp END              &kp PG_DN      &trans
+&kp TAB         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans   &trans      &trans  &trans      &kp HOME          &kp END             &kp BACKSPACE  &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans      &kp DEL       &trans               &trans         &trans
 &trans          &trans                  &kp LEFT_WIN    &trans                   &trans   &trans      &trans  &trans                                              &trans
             >;
 

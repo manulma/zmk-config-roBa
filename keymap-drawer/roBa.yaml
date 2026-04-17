@@ -38,7 +38,7 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - {t: Ctl+SPACE, h: SYMBOL}
+  - {t: F18, h: SYMBOL}
   - {t: TAB, h: BROWSE}
   - {t: '&to_layer_0 INT_MUHENKAN', h: BLUETOOTH}
   - BACKSPACE

@@ -34,11 +34,11 @@ layers:
   - M
   - ','
   - .
-  - '='
+  - '-'
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - {t: SPACE, h: SYMBOL}
+  - {t: Ctl+SPACE, h: SYMBOL}
   - {t: TAB, h: BROWSE}
   - {t: '&to_layer_0 INT_MUHENKAN', h: BLUETOOTH}
   - BACKSPACE
@@ -65,7 +65,7 @@ layers:
   - {t: ▽, type: trans}
   - HOME
   - END
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
